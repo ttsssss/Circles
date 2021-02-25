@@ -1,0 +1,47 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.hover, .rotate, .translatex, .translateY, .threeD, .skew, .scale {
+
+    width: 100px;
+    line-height: 0;
+    padding: 50px 0;
+    margin: 50px auto;
+    background-color: thistle;
+    border-radius: 50px;
+    cursor: pointer; 
+    color: white;
+    transition-property: color, background-color, transform;  /* properties you want to transition */
+    -moz-transition-property: color, background-color, transform;
+    transition-duration: 2s; /*how long you want the element to transition from start to finish */
+    transition-delay: 0s; /*how long until the transition begins */
+    transition-timing-function: ease-in-out; /*how we want our elements to transition */
+    
+}
+
+body {
+    background-color: thistle;
+}
+
+h1 {
+    text-align:center;
+    font-weight: bolder;
+    background:rgb(161, 15, 22);
+    color:rgb(238, 174, 119);
+    
+}
+
+h3 {
+    text-align: center;
+    background:rgb(161, 15, 22);
+    color:rgb(238, 174, 119);
+}
+
+h3:hover {
+    transform: skewY(2deg);
+}
+
+.photos:hover {
+    transform: skew(3deg, 3deg);
+}

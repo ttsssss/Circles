@@ -1,0 +1,68 @@
+.container {
+
+}
+
+h1 {
+    text-align: center;
+}
+
+.hover, .rotate, .translatex, .translateY, .threeD, .skew, .scale {
+
+    width: 100px;
+    line-height: 0;
+    padding: 50px 0;
+    margin: 50px auto;
+    background-color: violet;
+    border-radius: 50px;
+    cursor: pointer; 
+    color: white;
+    transition-property: color, background-color, transform;
+    transition-duration: 2s; 
+    transition-delay: 0s;
+    transition-timing-function: ease-in-out;
+    
+}
+
+.hover:hover {
+    color: purple;
+    background-color: turquoise;
+}
+
+.rotate:hover {
+    color: purple;
+    background-color: turquoise;
+    transform: rotate(360deg);
+}
+
+.skew:hover {
+        color: black;
+        background-color: turquoise;
+        transform: skewX(20deg);
+}
+
+.translatex:hover {
+    color: black;
+    background-color: turquoise;
+    transform: translateX(30px);
+}
+
+.translateY:hover {
+    color: teal;
+    background-color: purple;
+    transform: translateY(-30px);
+}
+
+.scale:hover {
+    color: seagreen;
+    background-color: springgreen;
+    transform: scale(2, 2);
+}
+
+.threeD:hover {
+    color: tomato;
+    background-color: wheat;
+    transform:rotate3d(1, 1, 1, 360deg);
+    
+
+
+}
