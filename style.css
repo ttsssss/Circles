@@ -42,6 +42,19 @@ h3:hover {
     transform: skewY(2deg);
 }
 
-.photos:hover {
+.photo1:hover {
     transform: skew(3deg, 3deg);
 }
+
+.photo2:hover {
+    transform: translate(120px, 50%);
+}
+
+.photo3:hover {
+    transform: scale(0.5, 0.5);
+}
+
+h1:hover {
+    transform: rotate(0.5turn);
+}
+
