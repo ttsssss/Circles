@@ -1,0 +1,61 @@
+.box {
+    background: yellow;
+    height: 150px;
+    width: 150px;
+    position: relative;
+    animation-name: sun;
+    border-radius: 50%;
+
+}
+
+.sky{
+    background-color: skyblue;
+    height: 200px;
+    width: auto;
+    margin-top: -150px;
+}
+
+.grass {
+    background-color: green;
+    height: 200px;
+} 
+
+.road {
+    background-color: gray;
+    height: 260px;
+}
+
+.line {
+    border: 7px dashed white;
+    height: 0px;
+    width: 100%;
+    position: absolute;
+    margin-top: 90px;
+    top: 50%;
+}
+
+img {
+    animation-name: mj;
+    position: absolute;
+    width: 200px;
+    height: 200;
+    bottom: 290px;
+    animation-duration: 6s;
+    animation-iteration-count: 5;
+    animation-direction: reverse;
+    animation-timing-function: linear;
+    
+
+}
+
+@keyframes  mj {
+    0% { transform: translateX(0);}
+
+    25% { transform: translateX(400px);}
+
+    50% { transform: translateX(800px);}
+
+    75% { transform: translateX(1200px);}
+
+    100% {  transform: translateX(1600px);}
+}

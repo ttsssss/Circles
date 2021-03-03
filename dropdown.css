@@ -1,0 +1,50 @@
+* {
+    margin: 0px;
+    padding: 1.5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+ul li {
+    float: left;
+    list-style-type: none;
+    opacity: 0.8;
+}
+
+ul li a {
+    border: 1px solid black;
+    /* top right bottom left for color */
+    box-shadow: 10px 5px 10px 5px  blue;
+    text-decoration: none;
+    margin-right: 125px;
+    width: 125px;
+    height: 50px;
+    line-height: 50px;
+    display: inline-block;
+    color: rgb(219, 69, 219);
+    text-align: center;
+}
+
+ul li a:hover {
+    background-color: rgb(236, 130, 30);
+    color: rgb(17, 17, 175);
+    font-size: 25px;
+}
+
+.dropdown li a {
+    height: 25px;
+    line-height: 25px;
+}
+
+.dropdown li {
+    float: none;
+}
+
+li .dropdown {
+    visibility: hidden;
+    /* or display: none; will do the same thing */
+}
+
+li:hover .dropdown {
+    visibility: visible;
+    /* display: block; */
+}

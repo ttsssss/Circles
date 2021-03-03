@@ -4,16 +4,41 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="dropdown.css">
+    <title>The Dropdown</title>
 </head>
 <body>
+    <!-- build an ul wth a tags to our pages in the li -->
     <header>
-        <nav>
-            <a href="animations.html">My Animation</a>
-            <a href="circles.html">Watch Me Transform</a>
-            <a href="dropdown.html">Dropdown Menu</a>
-            <a href="selectors.html">selectors</a>
-        </nav>
+        <ul>
+            <li><a href="index.html">Home</a>
+            <div class="dropdown">
+                <ul>
+                    <li><a href="selectors.html>">Selectors</a>
+                        <ul>
+                            <li><a href="selectors.html>">Selectors</a></li>
+                            <li><a href="index.html>">Sample</a></li>
+                            <li><a href="test.html>">Test</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="index.html>">Sample</a></li>
+                    <li><a href="test.html>">Test</a></li>
+                </ul>
+            </div> 
+            
+            </li>
+            <li><a href="animations.html">Animation</a></li>
+            <li><a href="circles.html">Circles</a>
+            <div class="dropdown">
+                <ul>
+                    <li><a href="selectors.html>">Selectors</a></li>
+                    <li><a href="index.html>">Sample</a></li>
+                    <li><a href="test.html>">Test</a></li>
+                </ul>
+            </div>
+        </li>
+    </ul>
+
     </header>
         
 </body>

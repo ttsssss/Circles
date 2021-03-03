@@ -1,0 +1,69 @@
+body {
+    text-align: center;
+}
+
+.section1 h1 {
+    color: green
+}
+
+h1 {
+    color: red;
+}
+
+.section2 h1 {
+    color: blue
+}
+
+.section3 h1 {
+    color: violet;
+}
+
+.section2 ul li {
+    color: pink;
+    font-size: 30px;
+    list-style-type: color, transform;
+    transition-duration:  4s;
+}
+.section2 ul li:hover {
+    color: black;
+}
+
+.section2 p {
+    font-weight: bolder; 
+    font-family: cursive;
+    border: yellow;
+    color: tomato;
+
+}
+
+.section2 .Spanish {
+    background-color: grey;
+    font-size: 20px;
+    color: indigo;
+}
+
+.section3 .arabic {
+    background-color:pink;
+    font-size: 40px;
+    color:darkslateblue;
+    font-weight: 900;
+    width: 40%;
+}
+
+
+.section3 ul {
+    color:rgb(177, 113, 113);  
+    font-size: 20px;
+    
+}
+
+.section3 li{
+animation-name: animation;
+animation-duration: 4s;
+        animation-iteration-count:infinite;
+        animation-delay: 1s;
+        animation-direction:normal;
+        animation-timing-function: linear;
+        animation-fill-mode:forwards;
+}
+
